@@ -76,7 +76,7 @@ For coding the game, I cooperated with team member Hafsah to finish the GUI clas
 # Licence
 
 This repository is licenced as MIT. 
-*Those are permitted
+* Those are permitted
  1. Redistribute this repository
  2. Modifiy any codes in this repository
  3. Any commercial use
