@@ -48,6 +48,8 @@ Major classes of the code used to put together the game application include Main
 
 # Creators
 
+Hafsah, Gen, Yao, Calvin, Ilija
+
 # Individual Contributions
 
 Hafsah Moalim:
@@ -56,4 +58,8 @@ I contributed to this project's code by creating the class skeleton for ConnectF
 
 * Gen Tomita
 	* My main contribution on this project is to write the controller part of our MVC design in GUI class. Since I could not share a pygame object in multiple classes, I have integralated the ability of the controller class into GUI so that the model is updated simultaneously as GUI by user input. I have also debugged some functions in Board class and solved minor bugs such as the timing of increments. For README I wrote the instruction for how to download required dependencies and set up them properly.
+
+Ilija Zivkovic:
+
+I contributed to the project in a few ways. I fully implementing the ConnectFourBoard class for the code, and I would help with creating the overall class design for our app. I created a few slides for the first presentation and I mad the introo and summary slides for the final presentation. I put together the final cut for the final presenation slides. My contribution to read me includes only the Major class and methods description.
 # Licence
