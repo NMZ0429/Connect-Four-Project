@@ -69,7 +69,8 @@ Ilija Zivkovic:
 
 I contributed to the project in a few ways. I fully implementing the ConnectFourBoard class for the code, and I would help with creating the overall class design for our app. I created a few slides for the first presentation and I mad the introo and summary slides for the final presentation. I put together the final cut for the final presenation slides. My contribution to read me includes only the Major class and methods description.
 
-Yao Yang
+Yao Yang：
+
 For coding the game, I cooperated with team member Hafsah to finish the GUI class. In particular, I created the game over page, which will show when the game ends. I also created a predictor for dropping chess pieces and also an indicator for the user's mouse movement(It tells the user which column they are at and where is the chess pieces dropping spot in that column ). Moreover, I also created a button class to simplify the code. For readme, I completed the code extension part, especially in how to change the colour of the board, chess pieces and also how to change the game rule.
 
 # Licence

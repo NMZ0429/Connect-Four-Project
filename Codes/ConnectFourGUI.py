@@ -136,20 +136,20 @@ class ConnectFourGUI():
             row = self.board.get_drop_loc(column)
             if self.board.valid_move(column,row):
                 a = self.board.drop(column)
-                print(self.board.board)
+                
                 loc = (int((column+0.5)*self.SQUARESIZE), int((row+1.5)*self.SQUARESIZE))
-                print(2)
+                
                 if self.board.turn == "P1":
 
                     pygame.draw.circle(self.SCREEN, self.RED, loc, self.RADIUS)
-                    print(3)
+                    
                 else:
                     pygame.draw.circle(self.SCREEN, self.YELLOW, loc, self.RADIUS)
-                    print(4)
+                    
 
-                print(5)
+                
             if self.board.check_for_win():
-                print("ture")
+                
                 self.winner = self.board.other_player()
                 self.game_over(self.winner)
             else:
@@ -161,7 +161,7 @@ class ConnectFourGUI():
             Due to the bugs in check_for_win function, it will finish the game
             in some occations.
             '''
-            print(self.decide_column(mouse_position))
+            
         else:
             # if start button is clicked
             if (self.start_button.x + self.start_button.width > mouse_position[0] > self.start_button.x and (self.start_button.y + self.start_button.height - 5) > mouse_position[1] > (self.start_button.y + self.start_button.height*0.5 - 5)):
