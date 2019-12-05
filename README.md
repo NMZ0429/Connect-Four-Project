@@ -46,6 +46,12 @@ Major classes of the code used to put together the game application include Main
 
 4-to-Connect does not allow users to view the start page from the play page. To allow this, one can add to the update_screen method so that buttons can beplaced on the screen if self.isPlaying is True.
 
+## Change the colour of the board
+If you want to change the colour of the board, you can check the draw board method in the ConnectFourGUI class. In the third "For" loop, there is a function "pygame.draw.rect", you can change the argument of the function to change the colour of the board.
+## Change the colour of the stones
+If you want to change the colour of disks, you can go into the class ConnectFourGui. There is a method "update screen". In the method, you should check into "elif self.isPlaying" statement, where there is a " if turn == P1" statement. Next, just change the argument of the function "pygame.draw.circle"
+## Change the game rule
+The game rule is in the default setting, which is connect four. However, one can change the game rule with the method "alternation" in the class "ConnectFourBoard". In the method, there is a statement "for i in range(4)". We can change the game into "Connect 3","Connect 5" , "connect 6" by changing the integer in the function "range".For example, if I want to play "connect 3", I can just simply change the statement to "for i in range(3)".
 # Creators
 
 Hafsah, Gen, Yao, Calvin, Ilija
@@ -62,4 +68,6 @@ I contributed to this project's code by creating the class skeleton for ConnectF
 Ilija Zivkovic:
 
 I contributed to the project in a few ways. I fully implementing the ConnectFourBoard class for the code, and I would help with creating the overall class design for our app. I created a few slides for the first presentation and I mad the introo and summary slides for the final presentation. I put together the final cut for the final presenation slides. My contribution to read me includes only the Major class and methods description.
+Yao
+For coding the game, I cooperated with team member Hafsah to finish the GUI class. In particular, I created the game over page, which will show when the game ends. I also created a predictor for dropping chess pieces and also an indicator for the user's mouse movement(It tells the user which column they are at and where is the chess pieces dropping spot in that column ). Moreover, I also created a button class to simplify the code. For readme, I completed the code extension part, especially in how to change the colour of the board, chess pieces and also how to change the game rule.
 # Licence
