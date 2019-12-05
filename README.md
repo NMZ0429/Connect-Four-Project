@@ -63,7 +63,7 @@ Hafsah Moalim:
 I contributed to this project's code by creating the class skeleton for ConnectFourGUI and filling in some of its methods. In particular, I created the help page and start page for the game. In the init method for ConnectFourGUI, I used the Button class to  allow switching between the help and start page. I also made the create_text function  to make text appear on the screen. For the README file, I created section headers and  filled in some of the game controls and code extension sections.
 
 * Gen Tomita
-	* My main contribution on this project is to write the controller part of our MVC design in GUI class. Since I could not share a pygame object in multiple classes, I have integralated the ability of the controller class into GUI so that the model is updated simultaneously as GUI by user input. I have also debugged some functions in Board class and solved minor bugs such as the timing of increments. For README I wrote the instruction for how to download required dependencies and set up them properly.
+	* My main contribution on this project is to write the controller part of our MVC design in GUI class. Since I could not share a pygame object in multiple classes, I have integralated the ability of the controller class into GUI so that the model is updated simultaneously as GUI by user input. I have also debugged some functions in Board class and solved minor bugs such as the timing of increments. For README I wrote the instruction for how to download required dependencies and set up them properly. I have also made a license file and set up it.
 
 Ilija Zivkovic:
 
@@ -74,3 +74,13 @@ Yao Yang：
 For coding the game, I cooperated with team member Hafsah to finish the GUI class. In particular, I created the game over page, which will show when the game ends. I also created a predictor for dropping chess pieces and also an indicator for the user's mouse movement(It tells the user which column they are at and where is the chess pieces dropping spot in that column ). Moreover, I also created a button class to simplify the code. For readme, I completed the code extension part, especially in how to change the colour of the board, chess pieces and also how to change the game rule.
 
 # Licence
+
+This repository is licenced as MIT. 
+*Those are permitted
+ 1. Redistribute this repository
+ 2. Modifiy any codes in this repository
+ 3. Any commercial use
+ 
+* Those are prohibited
+ 1. Any of above action without including our license file
+ 2. Clearly indicate your work with this repository is under the MIT licensing
